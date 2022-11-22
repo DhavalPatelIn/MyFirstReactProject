@@ -1,0 +1,11 @@
+.award--section { background-color: #171717; padding-top: 80px; padding-bottom: 80px;}
+.award--image { width: 16.50%; text-align: center; }
+.award--image img { display: block; margin: 0 auto;}
+.award--section .flex-container { align-items: center; justify-content: center;}
+@media(max-width:767px){
+    .award--image { width: 25%;}
+    .award--section { padding-top: 50px; padding-bottom: 50px; }
+}
+@media(max-width: 640px){
+    .award--image { width: 33.33%; }
+}

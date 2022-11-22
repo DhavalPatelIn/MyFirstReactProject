@@ -1,0 +1,16 @@
+.iconwrap img { max-height: 30px; max-width: 30px;}
+.iconwrap { height: 60px; width: 60px; border: 2px solid #ff5e15; border-radius: 5px; text-align: center; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-wrap: wrap;  align-items: center; justify-content: center; }
+.services-wrapper { width: 33.33%; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: -o-flex; display: flex; flex-wrap: wrap; padding: 20px; }
+.service-content { width: calc(100% - 60px); padding-left: 20px; }
+.service-content h4 { text-transform: uppercase; color: #ff5e15;}
+.bestservices-section .flex-container { margin: 0 -20px;}
+.bestservices-section { padding-top: 80px; padding-bottom: 80px;}
+.bestservices-section h2 { text-align: center; color: #000000; text-transform: uppercase; padding-bottom: 20px; }
+
+@media(max-width: 991px){
+    .services-wrapper { width: 50%; }
+    .bestservices-section { padding-top: 60px; padding-bottom: 60px;}
+}
+@media(max-width: 640px){
+    .services-wrapper { width: 100%; padding-top: 10px; padding-bottom: 10px; }
+}

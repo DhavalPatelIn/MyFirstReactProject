@@ -1,0 +1,8 @@
+.portfolio-image { padding-bottom: 24%; width: 33.33%; }
+.portfolio--section h2 { text-align: center; padding-bottom: 15px; text-transform: uppercase; }
+@media(max-width: 767px) {
+    .portfolio-image { width: 50%; padding-bottom: 30%; }
+}
+@media(max-width: 480px) {
+    .portfolio-image { width: 100%; padding-bottom: 70%; }
+}

@@ -1,0 +1,20 @@
+.blog--section { padding-top: 80px; padding-bottom: 80px; }
+.blog--section .flex-container { margin-left: -20px; margin-right: -20px; }
+.artical--wrap { width: 33.33%; padding-left: 20px; padding-right: 20px; }
+.artical--wrap h3 { margin-top: 20px; text-transform: uppercase; color: #ff5e15;}
+.blog-date { font-size: 14px; color: rgba(0,0,0,0.5); }
+.postbtn { padding-bottom: 2px; border-bottom: 1px solid #000; margin-top: 10px; display: inline-block; font-weight: 700; text-transform: uppercase; }
+.postbtn:hover { border-color: #ff5e15; }
+
+@media(max-width: 767px){
+    .artical--wrap { width: 100%; margin-bottom: 40px; }
+    .artical--wrap:last-child { margin-bottom: 0; }
+    .artical-img img { width: 100%; }
+    .blog--section { padding-top: 50px; padding-bottom: 50px; }
+}
+
+.popup { background-color: #ffffff; height: 90vh; width: 100%; max-width: 1000px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; }
+#PopupWrapper { display: none; background: rgba(0,0,0,0.5); height: 100vh; width: 100%; position: fixed; top: 0; left: 0; z-index: 1000; }
+#PopupWrapper.OpenPopup { display: block;  }
+.closepopup { position: absolute; top: 10px; right: 10px; }
+.TestSection { padding-top: 100px; padding-bottom: 100px; }

@@ -1,0 +1,10 @@
+.wrap--box { width: 33.33%; position: relative; }
+.wrap--box:after { content: ''; position: absolute; top: 0; left: 0; height: 100%; width: 100%; background-color: rgba(0, 0, 0, 0.5); }
+.wrap--box a { position: relative; z-index: 2; display: block; padding: 160px 20px 20px; color: #fff; }
+.wrap--box a:hover h3 { color: #ff5e15; }
+.wrap--box h3 { text-transform: uppercase; font-size: 24px; }
+
+@media(max-width: 767px){
+    .wrap--box { width: 100%; }
+    .wrap--box a { padding-top: 40%; }
+}

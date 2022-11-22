@@ -1,0 +1,5 @@
+.inner--banner { background-color: #ff5e15; text-align: center; padding-top: 100px; padding-bottom: 100px; }
+.inner--banner h1 { color: #ffffff; text-transform: uppercase; padding: 0; margin: 0; }
+@media(max-width: 767px) {
+    .inner--banner { padding-top: 50px; padding-bottom: 50px; }
+}

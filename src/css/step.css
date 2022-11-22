@@ -1,0 +1,12 @@
+.step--wrapper { padding-top: 0; padding-bottom: 50px; }
+.step-wrap { width: 25%; text-align: center; padding: 10px;}
+.step--icon { height: 100px; width: 100px; border: 2px solid #000; border-radius: 50%; position: relative; margin: 0 auto; margin-bottom: 20px; }
+.step--icon img { max-width: 50px; max-height: 50px; position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; }
+.step-wrap h3 { text-transform: uppercase; color: #ff5e15; font-size: 26px; }
+
+@media(max-width: 767px){
+    .step-wrap { width: 50%; }
+}
+@media(max-width: 640px){
+    .step-wrap { width: 100%; }
+}

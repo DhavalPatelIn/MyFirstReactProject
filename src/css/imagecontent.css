@@ -1,0 +1,9 @@
+.image--content--section { padding-top: 80px; padding-bottom: 80px;}
+.left-image { width: 50%; padding-right: 15px;}
+.right--content { width: 50%; padding-left: 15px;}
+.right--content h4 { color: #ff5e15; text-transform: uppercase; }
+
+@media(max-width: 767px){
+    .left-image { padding-right: 0; width: 100%; }
+    .right--content { width: 100%; text-align: center; padding-left: 0; }
+}
